@@ -1,1 +1,166 @@
-# Ms-Salma-s-Arabic-Tutoring
+# Ms-Salma-s-Arabic-Tutoring<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ms. Salma's Arabic Tutoring | تعلم العربية</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Cairo', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fafafa;
+      color: #333;
+    }
+    header {
+      background-image: url('https://images.unsplash.com/photo-1615361684025-7704e50a6b7c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80');
+      background-size: cover;
+      background-position: center;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+    header h1 {
+      font-size: 48px;
+      margin: 0;
+    }
+    header p {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    nav {
+      background-color: white;
+      padding: 15px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+    nav a {
+      margin: 0 20px;
+      text-decoration: none;
+      color: #3b8d99;
+      font-weight: bold;
+      font-size: 18px;
+    }
+    nav a:hover {
+      color: #2a6b73;
+    }
+    section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .service-card {
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+    .service-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .button, .whatsapp-button {
+      background-color: #3b8d99;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin-top: 30px;
+      font-size: 18px;
+      transition: background 0.3s;
+    }
+    .button:hover, .whatsapp-button:hover {
+      background-color: #2a6b73;
+    }
+    .whatsapp-button {
+      background-color: #25D366;
+      margin-top: 20px;
+    }
+    footer {
+      background-color: #3b8d99;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Ms. Salma's Arabic Tutoring</h1>
+  <p>تعلم العربية بثقة وحب</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Ms. Salma</h2>
+  <p>Hello! I'm Ms. Salma, a native Arabic speaker and experienced tutor. I create customized lessons to help students of all ages learn Arabic with confidence, from basic reading to fluent conversations. Let's start your journey together!</p>
+</section>
+
+<section id="services">
+  <h2>My Services</h2>
+  <div class="services">
+    <div class="service-card">
+      <img src="https://images.unsplash.com/photo-1581093588401-0d0b02c09f41?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Beginner Arabic Lessons">
+      <h3>Beginner Arabic Lessons</h3>
+      <p>Start from the basics: Alphabet, simple words, and phrases.</p>
+    </div>
+    <div class="service-card">
+      <img src="https://images.unsplash.com/photo-1603398938378-25c8b0c6f383?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Reading and Writing Arabic">
+      <h3>Reading and Writing Skills</h3>
+      <p>Master Arabic reading and writing with structured lessons.</p>
+    </div>
+    <div class="service-card">
+      <img src="https://images.unsplash.com/photo-1519455953755-af066f52f1b9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80" alt="Conversational Arabic">
+      <h3>Conversational Arabic</h3>
+      <p>Improve your speaking skills through fun and practical dialogues.</p>
+    </div>
+  </div>
+  <a href="#contact" class="button">Schedule a Lesson</a>
+</section>
+
+<section id="contact">
+  <h2>Contact Me</h2>
+  <p><strong>Email:</strong> <a href="mailto:sssalmaali1@gmail.com">sssalmaali1@gmail.com</a></p>
+  <p><strong>Phone:</strong> <a href="tel:8582052832">(858) 205-2832</a></p>
+  <p><strong>Lesson Options:</strong> In-Person (San Diego area) or Zoom Online Lessons</p>
+  <a class="whatsapp-button" href="https://wa.me/18582052832" target="_blank">Message me on WhatsApp</a>
+</section>
+
+<footer>
+  <p>© 2025 Ms. Salma's Arabic Tutoring | جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
